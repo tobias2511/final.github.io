@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <img src="iconos/luminalogo.png" alt="Lumina Logo" class="logo" />
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1 id="inicio">Iluminamos tus ideas, creamos tu historia</h1>
+
+  <section id="canvas-container" data-aos="fade-up"></section>
+
+  <section class="descripcion" id="sobre-nosotros" data-aos="fade-up">
+    <h2>Sobre Nosotros</h2>
+    <p>
+      SEn Lúmina creemos que la creatividad no tiene límites. Nos mueve la pasión por contar historias visuales que emocionan, comunican y transforman.
+
+      A lo largo de nuestro recorrido, hemos trabajado con emprendedores, marcas consolidadas y organizaciones sociales, adaptando cada proyecto a su identidad y visión.
+
+      Nuestro enfoque colaborativo nos permite construir soluciones digitales pensadas desde el diseño, pero impulsadas por la funcionalidad y la tecnología.
+
+      Siempre estamos explorando nuevas tendencias, herramientas y lenguajes visuales para mantenernos actualizados y ofrecer resultados innovadores que marquen diferencia.
+
+      Desde el primer boceto hasta el producto final, acompañamos a nuestros clientes en cada paso del proceso creativo. Para nosotros, cada proyecto es una oportunidad de iluminar ideas y darles forma con compromiso, detalle y corazón.
+    </p>
+  </section>
+
+  <h2 class="titulo-integrantes" data-aos="fade-up">Integrantes</h2>
+  <section class="integrantes" id="integrantes" data-aos="fade-up">
+    <div class="integrantes-container">
+      <div class="persona" data-role="Director creativo">
+        <img src="imagenes/Tobi_Raus.jpg" alt="Foto del integrante" />
+        <p>Tobias Raus</p>
+        <div class="descripcion-hover">Director creativo, encargado de la visión y creatividad del estudio.</div>
+      </div>
+      <div class="persona" data-role="Diseñadora UX/UI">
+        <img src="imagenes/AnaLuciaNorro.jpg" alt="Foto del integrante" />
+        <p>Ana Lucia Norro</p>
+        <div class="descripcion-hover">Diseñadora UX/UI, especializada en experiencia de usuario y diseño de interfaces.</div>
+      </div>
+      <div class="persona" data-role="Desarrollador Frontend">
+        <img src="imagenes/Javier_Nicoletti.jpeg" alt="Foto del integrante" />
+        <p>Javier Abdiel Nicoletti</p>
+        <div class="descripcion-hover">Desarrollador Frontend, experto en programación y animaciones web.</div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="titulo-servicios" data-aos="fade-up">Servicios</h2>
+  <section class="servicios" id="servicios" data-aos="fade-up">
+    <div class="pastillas-container">
+      <div class="pastilla">
+        <img src="iconos/Animacion2D.svg" alt="Icono Animación" />
+        <p>Animación 2D/3D</p>
+      </div>
+      <div class="pastilla">
+        <img src="iconos/DesarrolloWeb.svg" alt="Icono Web" />
+        <p>Desarrollo Web</p>
+      </div>
+      <div class="pastilla">
+        <img src="iconos/Branding.svg" alt="Icono Branding" />
+        <p>Branding</p>
+      </div>
+      <div class="pastilla">
+        <img src="iconos/UX.svg" alt="Icono UX" />
+        <p>Interacción UI/UX</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" data-aos="fade-up">
+    <h2>Contacto</h2>
+    <form action="https://formsubmit.co/tucorreo@email.com" method="POST" class="formulario">
+      <input type="text" name="name" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo electrónico" required />
+      <textarea name="message" placeholder="Escribí tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>
+    Diseño Multimedial - Diseño y Programación Web I - Turno noche - Comisión DMM3AV - Prof. Sergio Daniel Medina - Junio 2025<br />
+    Entrega final<br />
+    Integrantes: Tobias Raus, Ana Lucia Norro, Javier Abdiel Nicoletti
+  </p>
+</footer>
+
+<script src="sketch.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
